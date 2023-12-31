@@ -1,7 +1,5 @@
 require 'csv'
 
-#loop = true
-
 puts "1(新規でメモを作成) 2(既存のメモを編集する)"
 
 while true
