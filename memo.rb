@@ -11,7 +11,7 @@ while true
     puts "メモしたい内容を記入してください"
     puts "完了したらCtrl + Dをおします"
     content = readlines
-    CSV.open("#{file_name}.csv", 'w') do |f|
+    CSV.open("#{file_name}.csv",'w') do |f|
       f << content
     end
     break
